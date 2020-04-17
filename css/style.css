@@ -1,0 +1,116 @@
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*FINE RESET*/
+
+/*INIZIO REGOLE GENERALI*/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/*FINE REGOLE GENERALI*/
+
+/* HEADER */
+header {
+  background: #0c325a;
+  height: 500px;
+  color: white;
+  background-image: url(../img/background-header.png);
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position: 110% 100%;
+}
+
+header .menu .col {
+  float: left;
+  margin-top: 15px;
+}
+
+/*header top menu*/
+header .menu .col-left {
+  width: 15%;
+}
+
+header .menu .col-center {
+  width: 46%;
+}
+
+header .menu .col-right {
+  width: 39%;
+  text-align: right;
+}
+
+header .menu ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 13px;
+  padding: 4px;
+  line-height: 42px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+header .menu ul li a:hover {
+  color: yellow;
+}
+
+header .menu .col-right .login{
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 4px 28px;
+}
+
+header .menu .col-right .piano {
+  border-radius: 5px;
+  padding: 6px 11px;
+  background-color: #7cbb02;
+}
+
+/* fine header top menu*/
+
+/* header bottom*/
+header .cta {
+  padding-top: 10%;
+  width: 55%;
+}
+
+header .cta h1 {
+  font-size: 55px;
+}
+
+header .cta p {
+  margin-top: 7%;
+  border-radius: 5px;
+  padding: 20px 12px;
+  background-color: #7cbb02;
+  width: 32%
+}
+/* fine header bottom*/
+
+
+/* FINE HEADER */
+
+/* MAIN  */
+
+
+/* FINE MAIN */
+
+/* FOOTER */
+
+/* FINE FOOTER */
